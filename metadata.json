@@ -1,0 +1,6 @@
+{
+  "name": "شركة سنال لإنتاج الدواجن | Sienal for Poultry Production",
+  "description": "الموقع الإلكتروني الرسمي لشركة سنال لإنتاج الدواجن المحدودة في الخرطوم، السودان. إنتاج كتاكيت عمر يوم وتجهيز الدجاج اللاحم المجمد وفق أعلى معايير الجودة والسلامة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
