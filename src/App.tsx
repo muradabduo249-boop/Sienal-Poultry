@@ -75,7 +75,7 @@ function AppContent() {
   };
 
   return (
-    <div className="min-h-screen w-full max-w-full overflow-x-hidden flex flex-col bg-white text-stone-900 selection:bg-[#008744]/15 selection:text-[#008744] font-['IBM_Plex_Sans_Arabic',sans-serif]">
+    <div className="min-h-screen w-full max-w-full overflow-x-clip flex flex-col bg-white text-stone-900 selection:bg-[#008744]/15 selection:text-[#008744] font-['IBM_Plex_Sans_Arabic',sans-serif]">
       {/* Official Top Bar */}
       <Header
         currentPage={currentPage}

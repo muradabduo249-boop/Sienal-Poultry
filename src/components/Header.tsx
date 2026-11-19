@@ -43,7 +43,13 @@ export const Header: React.FC<HeaderProps> = ({
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-white border-b border-stone-200/90 transition-shadow">
+    <header
+      className={`sticky top-0 inset-x-0 z-50 w-full border-b transition-all duration-200 ${
+        isScrolled
+          ? 'bg-white/95 backdrop-blur-md border-stone-200 shadow-md'
+          : 'bg-white border-stone-200/90'
+      }`}
+    >
       {/* Top Utility Bar */}
       <div className="bg-stone-50 border-b border-stone-200/60 text-stone-600 text-xs py-2 px-4 sm:px-6 lg:px-8">
         <div className="w-full max-w-7xl mx-auto flex items-center justify-between">

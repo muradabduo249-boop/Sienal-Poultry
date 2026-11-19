@@ -1,4 +1,10 @@
 import { Product, NewsArticle, SalesCenter, MediaGalleryItem } from '../types';
+import heroChicksHatcheryImg from '../assets/images/hero_chicks_hatchery_1794027907385.jpg';
+import broilerFarmFacilityImg from '../assets/images/broiler_farm_facility_1794027908197.jpg';
+import modernPoultryFarmImg from '../assets/images/modern_poultry_farm_1794403817650.jpg';
+import poultryColdStorageImg from '../assets/images/poultry_cold_storage_1794027908179.jpg';
+import deliciousRoastedChickenImg from '../assets/images/delicious_roasted_chicken_1794403837015.jpg';
+import poultryQualityControlImg from '../assets/images/poultry_quality_control_1794403856336.jpg';
 
 export const COMPANY_INFO = {
   name: {
@@ -52,14 +58,14 @@ export const COMPANY_INFO = {
   partnershipPoster: '/assets/aistudio/image_d5392b05.png',
   
   // High-res verified assets
-  chicksHatcheryImage: '/src/assets/images/hero_chicks_hatchery_1794027907385.jpg',
+  chicksHatcheryImage: heroChicksHatcheryImg,
   frozenBroilerImage: '/assets/aistudio/received_1650203086799138_4b93fc24.jpeg',
   packagedChickenImage: '/assets/aistudio/FB_IMG_1793630636935_850c84f5.jpg',
   farmInteriorImage: '/assets/aistudio/FB_IMG_1793630515463_05ea616e.jpg',
-  poultryFarmFacilityImage: '/src/assets/images/modern_poultry_farm_1794403817650.jpg',
-  coldStorageImage: '/src/assets/images/poultry_cold_storage_1794027908179.jpg',
-  roastedChickenDishImage: '/src/assets/images/delicious_roasted_chicken_1794403837015.jpg',
-  qualityInspectionImage: '/src/assets/images/poultry_quality_control_1794403856336.jpg',
+  poultryFarmFacilityImage: modernPoultryFarmImg,
+  coldStorageImage: poultryColdStorageImg,
+  roastedChickenDishImage: deliciousRoastedChickenImg,
+  qualityInspectionImage: poultryQualityControlImg,
 };
 
 export const VISION_MISSION_VALUES = {
@@ -151,7 +157,7 @@ export const PRODUCTS: Product[] = [
         'Breeds and batch availability: Scheduled as per approved company releases.',
       ],
     },
-    image: '/src/assets/images/hero_chicks_hatchery_1794027907385.jpg',
+    image: heroChicksHatcheryImg,
     badge: {
       ar: 'المنتج الأول',
       en: 'Product 1',
@@ -368,7 +374,7 @@ export const CHICKS_SHOWCASE_VIDEO = {
     en: 'Hatchery & Chick Vitality',
   },
   videoUrl: '/assets/aistudio/_____47ab04fe.mp4',
-  posterImage: '/src/assets/images/hero_chicks_hatchery_1794027907385.jpg',
+  posterImage: heroChicksHatcheryImg,
 };
 
 export const QUALITY_PAGE_DATA = {
@@ -436,14 +442,14 @@ export const MEDIA_GALLERY: MediaGalleryItem[] = [
     id: 'gal-2',
     title: { ar: 'عنابر تفريخ كتاكيت التسمين', en: 'Day-Old Broiler Hatchery' },
     category: 'chicks',
-    image: '/src/assets/images/hero_chicks_hatchery_1794027907385.jpg',
+    image: heroChicksHatcheryImg,
     caption: { ar: 'كتاكيت عمر يوم تتمتع بحيوية ونشاط متجانس.', en: 'Uniform vitality day-old chicks at the facility.' },
   },
   {
     id: 'gal-3',
     title: { ar: 'مرافق الإنتاج والعنابر المعزولة', en: 'Production Houses & Farm Facility' },
     category: 'facilities',
-    image: '/src/assets/images/broiler_farm_facility_1794027908197.jpg',
+    image: broilerFarmFacilityImg,
     caption: { ar: 'مرافق التربية والتجهيز المجهزة بأنظمة تحكم بيئي متطورة.', en: 'Modern climate-controlled broiler housing facilities.' },
   },
   {
@@ -478,21 +484,21 @@ export const MEDIA_GALLERY: MediaGalleryItem[] = [
     id: 'gal-8',
     title: { ar: 'عنابر التربية والتحكم البيئي المتطورة', en: 'Advanced Climate-Controlled Broiler Facilities' },
     category: 'facilities',
-    image: '/src/assets/images/modern_poultry_farm_1794403817650.jpg',
+    image: modernPoultryFarmImg,
     caption: { ar: 'منظومة تفريخ ورعاية حديثة مزودة بأحدث أنظمة التغذية والتهوية الآلية.', en: 'Modern incubation and housing with automated feeding and ventilation systems.' },
   },
   {
     id: 'gal-9',
     title: { ar: 'دجاج سنال الذهبي - جودة تُرى وتُذاق', en: 'Golden Roasted Sienal Chicken - Quality Seen & Tasted' },
     category: 'products',
-    image: '/src/assets/images/delicious_roasted_chicken_1794403837015.jpg',
+    image: deliciousRoastedChickenImg,
     caption: { ar: 'دجاج كامل فاخر محمر بأشهى النكهات يعكس طزاجة ونقاء اللحوم البيضاء.', en: 'Golden-roasted whole chicken showcasing tenderness and peak flavor.' },
   },
   {
     id: 'gal-10',
     title: { ar: 'مختبر الرقابة البيطرية وسلامة الغذاء', en: 'Veterinary Biosecurity & Quality Laboratory' },
     category: 'facilities',
-    image: '/src/assets/images/poultry_quality_control_1794403856336.jpg',
+    image: poultryQualityControlImg,
     caption: { ar: 'فحص دوري واختبارات لسلامة الأغذية وسلسلة التبريد لضمان أعلى معايير الجودة.', en: 'Strict quality assurance and continuous cold chain inspection.' },
   },
 ];
@@ -544,7 +550,7 @@ export const LATEST_NEWS: NewsArticle[] = [
         'Sienal Poultry continues satisfying requirements for breeders across Sudan.',
       ],
     },
-    image: '/src/assets/images/hero_chicks_hatchery_1794027907385.jpg',
+    image: heroChicksHatcheryImg,
   },
   {
     id: 'news-2',

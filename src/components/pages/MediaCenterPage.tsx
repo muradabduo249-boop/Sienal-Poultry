@@ -275,7 +275,7 @@ export const MediaCenterPage: React.FC<MediaCenterPageProps> = ({ setCurrentPage
                 <div className="w-full rounded-2xl overflow-hidden border border-stone-200 shadow-sm bg-black aspect-9/16 max-h-[420px] mx-auto flex items-center justify-center">
                   <video
                     src="/assets/aistudio/_____47ab04fe.mp4"
-                    poster="/src/assets/images/hero_chicks_hatchery_1794027907385.jpg"
+                    poster={COMPANY_INFO.chicksHatcheryImage}
                     controls
                     playsInline
                     className="w-full h-full object-cover"

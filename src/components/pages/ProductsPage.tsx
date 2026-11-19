@@ -110,7 +110,7 @@ export const ProductsPage: React.FC<ProductsPageProps> = ({
                         <div className="rounded-xl overflow-hidden bg-black max-w-xs aspect-9/16 max-h-[380px]">
                           <video
                             src="/assets/aistudio/_____47ab04fe.mp4"
-                            poster="/src/assets/images/hero_chicks_hatchery_1794027907385.jpg"
+                            poster={COMPANY_INFO.chicksHatcheryImage}
                             controls
                             playsInline
                             className="w-full h-full object-cover"
